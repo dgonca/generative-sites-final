@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Build a Website</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+
+   <div id="build-bg-1" class="background"></div>
+    <div id="button">
+    <a href="#build-bg-2"><button id="fb-login">Login to Facebook</button></a>
+   </div>
+
+   <!-- <div id="np-2" class="next-page"><a href="#build-bg-2">NEXT</a></div> -->
+
+   <div id="build-bg-2" class="background"></div>
+
+    <div id="user-info" style="display:none;">
+        <h1>your name is: </h1><h1 id="user-name"></h1>
+        <h1>you're currently in: </h1><h1 id="user-location"> </h1>
+        <h1>this is you:</h1><img id="user-picture">
+        
+    </div>
+
+    <div id="np-1" class="next-page"><a href="#build-bg-3">NEXT</a></div>
+
+    <div id="build-bg-3" class="background"></div>
+
+    <form id="form-2" class="register-form">
+        
+        <h1>Let's look at your photos to see which to choose for your site</h1>
+        <a href="#build-bg-4">
+        <input class="one-column" id="photos-show" type="button" name="photos"
+        value="Go to Photos" />
+        </a>
+
+    </form>
+
+    <div id="build-bg-4" class="background"></div>
+
+    <div class="user-photos-div" style="display:none;">
+        <img src="" id="user-photo">
+
+    </div>
+
+    <div id="build-bg-5" class="background"></div>
+
+    <form id="form-3" class="register-form">
+        
+        <h1>Make some color decisions</h1>
+        <label class="two-column" for="background-color">Background Color</label>
+        <select class="two-column" id="background-color" name="background-color">
+                <option value="white">White</option>
+                <option value="forestgreen">Forest Green</option>
+                <option value="lightgreen">Light Green</option>
+                <option value="navy">Navy</option>
+                <option value="skyblue">Sky Blue</option>
+                <option value="yellow">Yellow</option>
+                <option value="gold">Gold</option>
+                <option value="goldenrod">Goldenrod</option>
+                <option value="crimson">Crimson</option>
+                <option value="pink">Pink</option>
+                <option value="red">Red</option>
+                <option value="orangered">Orange Red</option>
+                <option value="salmon">Salmon</option>
+                <option value="violet">Violet</option>
+                <option value="lavender">Lavender</option>
+                <option value="indigo">Indigo</option>
+                <option value="teal">Teal</option>
+                <option value="burlywood">Burlywood</option>
+                <option value="chocolate">Chocolate</option>
+                <option value="indigo">Indigo</option>
+                <option value="maroon">Maroon</option>
+                <option value="azure">Azure</option>
+                <option value="beige">Beige</option>
+                <option value="linen">Linen</option>
+                <option value="ivory">Ivory</option>
+                <option value="black">Black</option>
+        </select>
+
+        <label class="two-column" for="text-color">Text Color</label>
+        <select class="two-column" id="text-color" name="text-color">
+                <option value="white">White</option>
+                <option value="forestgreen">Forest Green</option>
+                <option value="lightgreen">Light Green</option>
+                <option value="navy">Navy</option>
+                <option value="skyblue">Sky Blue</option>
+                <option value="yellow">Yellow</option>
+                <option value="gold">Gold</option>
+                <option value="goldenrod">Goldenrod</option>
+                <option value="crimson">Crimson</option>
+                <option value="pink">Pink</option>
+                <option value="red">Red</option>
+                <option value="orangered">Orange Red</option>
+                <option value="salmon">Salmon</option>
+                <option value="violet">Violet</option>
+                <option value="lavender">Lavender</option>
+                <option value="indigo">Indigo</option>
+                <option value="teal">Teal</option>
+                <option value="burlywood">Burlywood</option>
+                <option value="chocolate">Chocolate</option>
+                <option value="indigo">Indigo</option>
+                <option value="maroon">Maroon</option>
+                <option value="azure">Azure</option>
+                <option value="beige">Beige</option>
+                <option value="linen">Linen</option>
+                <option value="ivory">Ivory</option>
+                <option value="black">Black</option>
+        </select>
+
+         <label class="two-column" for="header-color">Header Text Color</label>
+        <select class="two-column" id="header-color" name="header-color">
+                <option value="white">White</option>
+                <option value="forestgreen">Forest Green</option>
+                <option value="lightgreen">Light Green</option>
+                <option value="navy">Navy</option>
+                <option value="skyblue">Sky Blue</option>
+                <option value="yellow">Yellow</option>
+                <option value="gold">Gold</option>
+                <option value="goldenrod">Goldenrod</option>
+                <option value="crimson">Crimson</option>
+                <option value="pink">Pink</option>
+                <option value="red">Red</option>
+                <option value="orangered">Orange Red</option>
+                <option value="salmon">Salmon</option>
+                <option value="violet">Violet</option>
+                <option value="lavender">Lavender</option>
+                <option value="indigo">Indigo</option>
+                <option value="teal">Teal</option>
+                <option value="burlywood">Burlywood</option>
+                <option value="chocolate">Chocolate</option>
+                <option value="indigo">Indigo</option>
+                <option value="maroon">Maroon</option>
+                <option value="azure">Azure</option>
+                <option value="beige">Beige</option>
+                <option value="linen">Linen</option>
+                <option value="ivory">Ivory</option>
+                <option value="black">Black</option>
+        </select>
+
+         <label class="two-column" for="hover-color">Hover Color</label>
+        <select class="two-column" id="hover-color" name="hover-color">
+                <option value="white">White</option>
+                <option value="forestgreen">Forest Green</option>
+                <option value="lightgreen">Light Green</option>
+                <option value="navy">Navy</option>
+                <option value="skyblue">Sky Blue</opation>
+                <option value="yellow">Yellow</option>
+                <option value="gold">Gold</option>
+                <option value="goldenrod">Goldenrod</option>
+                <option value="crimson">Crimson</option>
+                <option value="pink">Pink</option>
+                <option value="red">Red</option>
+                <option value="orangered">Orange Red</option>
+                <option value="salmon">Salmon</option>
+                <option value="violet">Violet</option>
+                <option value="lavender">Lavender</option>
+                <option value="indigo">Indigo</option>
+                <option value="teal">Teal</option>
+                <option value="burlywood">Burlywood</option>
+                <option value="chocolate">Chocolate</option>
+                <option value="indigo">Indigo</option>
+                <option value="maroon">Maroon</option>
+                <option value="azure">Azure</option>
+                <option value="beige">Beige</option>
+                <option value="linen">Linen</option>
+                <option value="ivory">Ivory</option>
+                <option value="black">Black</option>
+        </select>
+
+        <label class="two-column" for="font-style">Font Style</label>
+        <select class="two-column" id="font-style" name="font-style">
+                <option value="Helvetica">Helvetica</option>
+                <option value="Arial">Arial</option>
+                <option value="Georgia">Georgia</option>
+                <option value="Times New Roman">Times New Roman</option>
+                <option value="Courier New">Courier New</option>
+                <option value="Tahoma">Tahoma</option>
+                <option value="Verdana">Verdana</option>
+        </select>
+
+        <a href="#build-bg-6">
+        <input type="submit" name="build-site" value="Build Site" class="one-column">
+        </a>
+        
+
+    </form>
+
+
+    <!-- <div id="np-3" class="next-page"><a href="#build-bg-6">BUILD SITE</a></div> -->
+
+    <div id="build-bg-6" class="background"></div>
+
+    <div id="home-page" style="display:none;">
+    <h1 class="final-page header" id="home-h"></h1>
+    <nav class=" final-nav final-page" id="home-nav">
+    <a href="#build-bg-6"><h3 class="final-page" >home</h3></a>
+    <a href="#build-bg-7"><h3 class="final-page" >work</h3></a>
+    <a href="#build-bg-8"><h3 class="final-page" >about</h3></a>
+    </nav>
+
+    <!-- <p id="home-p">image goes here</p> -->
+
+    
+
+    </div>
+
+    <div id="build-bg-7" class="background"></div>
+
+    <div id="work-page" style="display:none;">
+    <h1 class="final-page header" id="work-h"></h1>
+    <nav class="final-nav final-page" id="work-nav">
+    <a href="#build-bg-6"><h3 class="final-page" id="home">home</h3></a>
+    <a href="#build-bg-7"><h3  class="final-page" id="work">work</h3></a>
+    <a href="#build-bg-8"><h3 class="final-page" id="about">about</h3></a>
+    </nav>
+
+    <p id="work-p">image goes here</p>
+
+    <img src="" id="photo-picked">
+
+   </div>
+
+    <div id="build-bg-8" class="background"></div>
+
+    <div id="about-page" style="display:none;">
+    <h1 class="final-page header" id="about-h"></h1>
+    <nav class="final-nav final-page" id="about-nav">
+    <a href="#build-bg-6"><h3 class="final-page" id="home">home</h3></a>
+    <a href="#build-bg-7"><h3 class="final-page" id="work">work</h3></a>
+    <a href="#build-bg-8"><h3 class="final-page" id="about">about</h3></a>
+    </nav>
+
+
+    <img src="" id="about-picture">
+    <p id="about"></p>
+    </div>
+
+
+
+
+    <!-- Code for calling all javascript libraries and pages below -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/10.0.1/js/smooth-scroll.js"></script>
+    <script type="text/javascript">
+    smoothScroll.init({
+        selector: '[data-scroll]', // Selector for links (must be a class, ID, data attribute, or element tag)
+        selectorHeader: null, // Selector for fixed headers (must be a valid CSS selector) [optional]
+        speed: 500, // Integer. How fast to complete the scroll in milliseconds
+        easing: 'easeInOutCubic', // Easing pattern to use
+        offset: 0, // Integer. How far to offset the scrolling anchor location in pixels
+        callback: function(anchor, toggle) {} // Function to run after scrolling
+    });
+    </script>
+
+     <script>
+    (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) {
+            return;
+        }
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk.js";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+
+    <script type="text/javascript" src="js/main.js"></script>
+
+    
+
+
+    
+</body>
+
+</html>

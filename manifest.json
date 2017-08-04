@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Make an artist website",
+  "description": "This extension creates an artist website when you are accessing your Facebook profile home page",
+  "version": "1.0",
+  "icons": {
+    // "16": "icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.facebook.com/*"],
+      "css": ["js/main.js"],
+      "run_at": "document_end"
+    }
+  ]
+
+
+}
